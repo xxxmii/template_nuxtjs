@@ -1,0 +1,49 @@
+/*******************************
+ * font-family
+ */
+@mixin MPlusRounded1p {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+@mixin AlternateGothicNo1D {
+    font-family: alternate-gothic-no-1-d, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin AlternateGothicNo3D {
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*******************************
+ * media query
+ */
+//PC 1200px〜
+@mixin pc {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+//ラップトップ 769~1119px
+@mixin laptop {
+    @media (max-width: 1119px) {
+        @content;
+    }
+}
+//タブレット　768px
+@mixin tablet {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+@mixin tabletMin {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+//スマホ　〜767px
+@mixin sp {
+    @media (max-width: 767px) {
+        @content;
+    }
+}

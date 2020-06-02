@@ -1,0 +1,15 @@
+// display
+@include sp {
+    .sp-none {
+        display: none;
+    }
+}
+
+// color
+.white {
+    color: $white;
+}
+
+.base {
+    color: $base;
+}

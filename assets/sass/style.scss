@@ -1,0 +1,37 @@
+/**
+* Foundation
+* ========================== */
+
+@import "foundation/_reset";
+@import "foundation/_variables";
+@import "foundation/_mixin";
+@import "foundation/_base";
+
+/**
+* Layout
+* ========================== */
+
+@import "layout/_header.scss";
+@import "layout/_main.scss";
+@import "layout/_footer.scss";
+
+/**
+* Object
+* ========================== */
+
+/* Component ------------ */
+
+// @import "object/component/*";
+@import "object/component/_component";
+
+/* Project ------------ */
+
+// @import "object/project/*";
+@import "object/project/_header";
+@import "object/project/_main";
+@import "object/project/_footer";
+
+/* Utility ------------ */
+
+// @import "object/utility/*";
+@import "object/utility/_utility";
